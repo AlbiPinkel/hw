@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeCheck - Аналитика</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo-icon"></div>
+            <h1 class="logo-text">WeCheck</h1>
+        </div>
+        <nav class="nav-menu">
+            <a href="#" class="nav-link active">Прямые эфиры</a>
+            <a href="#" class="nav-link">Ассортимент</a>
+            <a href="#" class="nav-link">Конкуренты</a>
+        </nav>
+        <button class="order-report">Заказать отчет</button>
+    </header>
+    
+    <section class="main-section">
+        <h2 class="main-heading">Следите за продажами конкурентов на OZON и Wildberries</h2>
+        <div class="content-container">
+            <div class="image-block"></div>
+            <div class="info-panel">
+                <div class="info-box">
+                    <h3 class="info-title">Наглядное сравнение</h3>
+                    <p class="info-text">Изучайте, где сосредоточены основные продажи, а где самый высокий средний чек.</p>
+                </div>
+                <div class="info-box">
+                    <h3 class="info-title">Подробная аналитика</h3>
+                    <p class="info-text">Следите за динамикой продаж в каждой категории и выявляйте актуальные тренды.</p>
+                </div>
+                <div class="info-box">
+                    <h3 class="info-title">Продажи по дням</h3>
+                    <p class="info-text">Следите за положением карточки товара за день и вовремя принимайте меры.</p>
+                </div>
+                <button class="demo-button">Покликать демо-версию</button>
+                <button class="register-button">Зарегистрироваться</button>
+            </div>
+        </div>
+        <div class="picture">
+            <img src="image/first.png" alt="half">
+        </div>
+    </section>
+
+    <section class="second-s">
+        <div class="content-wrapper">
+
+            <!-- Текстовая часть -->
+            <div class="back2">
+                <header>
+                    <h1 class="sec-heading">Изучайте продажи конкурентов, следите за трендами, подбирайте для себя нишу</h1>
+                </header>
+                <div class="info-panel-s1">
+                    <div class="info-box-s">
+                        <h3 class="info-title-s1">Узнайте продажи конкурентов</h3>
+                        <p class="info-text-s1">Покажем сколько продаж каждого товара, бренда или категории в рублях и штуках было на wildberries и ozon. Определите объем рынка, вашу долю на нем и размеры конкурентов</p>
+                    </div>
+                    <div class="info-box-s">
+                        <h3 class="info-title-s1">Следите за трендами и нишами</h3>
+                        <p class="info-text-s1">Покажем какие категории и бренды набирают обороты, а какие стали продаваться плохо. Принимайте решения о закупках или запускайте новые категории на основе реальных данных</p>
+                    </div>
+                </div>
+                <div class="info-panel-s2">
+                    <div class="info-box-s">
+                        <h3 class="info-title-s2">Реагируйте на цены</h3>
+                        <p class="info-text-s2">Наглядно отразим в каких сегментах демпинг, а какие продавцы повышают цены. Изучите стратегии конкурентов и скорректируйте свое ценообразование</p>
+                    </div>
+                    <div class="info-box-s">
+                        <h3 class="info-title-s2">Изучайте выдачу в каталоге</h3>
+                        <p class="info-text-s2">Покажем динамику позиций каждого товара в каталоге и по поисковым запросам. Анализируйте какие товары покупатели видят в первую очередь</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Блок с изображением -->
+            <div class="image-wrapper">
+                <img src="image/sec.png" alt="half">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Slider main container -->
+
+
+    <div class="container-3">
+        <h2 class="slider-title">Weсheck — это новый уровень <br>аналитики рынка</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Показываем продажи по датам</h3>
+                        <p class="hidden">Анализируем, как меняются продажи в зависимости от времени. Помогаем определить лучшие дни для скидок, акций и повышения цен.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Следим за новыми поступлениями и Sold out</h3>
+                        <p class="hidden">Мгновенно узнавайте о появлении новых товаров и следите за тем, какие позиции распроданы, чтобы вовремя пополнять склад.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Анализируем по брендам или продавцам</h3>
+                        <p class="hidden">Сравниваем динамику продаж у разных брендов и продавцов. Выявляем, кто держит цены, а кто устраивает распродажи.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Изучаем динамику продаж</h3>
+                        <p class="hidden">Покажем, какие продавцы повышают цены, а у каких брендов активная распродажа. Увеличивайте маржу за счёт управления промо на основе данных о конкурентах.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Цены</h3>
+                        <p class="hidden">Отслеживайте изменения цен на товары. Определяйте оптимальные стратегии ценообразования для увеличения прибыли.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Детальная аналитика</h3>
+                        <p class="hidden">Все продажи на одном экране. Гибкие отчёты и фильтры позволяют анализировать данные и находить скрытые тренды.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Тренды</h3>
+                        <p class="hidden">Выявляем самые популярные товары. Следите за тем, какие позиции пользуются спросом и какие тренды набирают обороты.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Конкуренты</h3>
+                        <p class="hidden">Сравниваем топовые бренды, оцениваем их стратегию продаж и ценообразования. Помогаем находить конкурентные преимущества.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>                
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+          <!-- Slider main container -->
+
+        <section class="f-f">
+            <div class="slide"><img src="image/krg.png" alt="Слайд 1"></div>
+        </section>
+
+<!-- Slider main container -->
+  
+<section class="WeCheck">
+    <div class="whole">
+        <div class="black">
+            <h1>Для кого подойдет WeCheck</h1>
+        </div>
+
+        <div class="f-t">
+            <div class="bl">
+                <div class="mini"><img src="image/1.png" alt="half"></div>
+                <h2>Head of ecommerce/ CMO</h2>
+                <p>Получать регулярную информацию о деятельности конкурентов.  Отчет поможет эффективней планировать свои маркетинговые мероприятия, быть в курсе активностей конкурентов, следить за тем, в какие направления инвестируют игроки.</p>
+            </div>
+
+            <div class="bl">
+                <div class="mini"><img src="image/2.png" alt="half"></div>
+                <h2>Собственник бизнеса</h2>
+                <p>Получить независимый взгляд на свой бизнес.  Отчет поможет сравнить показатели и динамику развития своего бизнеса с бизнесом конкурентов, оценить качество работы отделов.</p>
+            </div>
+
+            <div class="bl">
+                <div class="mini"><img src="image/3.png" alt="half"></div>
+                <h2>Руководителю рекламного агенства</h2>
+                <p>Провести детальный конкурентный анализ при планировании стратегии продвижения для своих клиентов.  Отчет поможет сформировать идеи для позиционирования и отстройки от конкурентов, в том числе и в медийных и perfomance кампаниях.</p>
+            </div>
+        </div>
+
+
+        <div class="s-t">
+            <div class="bl">
+                <div class="mini"><img src="image/4.png" alt="half"></div>
+                <h2>Руководителю на новом месте работы </h2>
+                <p>Увидеть объективную картину работы бизнеса.  Отчет поможет сформировать вектор развития, расставить приоритеты, понять свои сильные стороны и выявить моменты, которые лучше работают у конкурентов.  </p>
+            </div>
+
+            <div class="bl">
+                <div class="mini"><img src="image/5.png" alt="half"></div>
+                <h2>Предпринимателю при запуске бизнеса</h2>
+                <p>Выявить основных игроков и понять расстановку сил на рынке. Отчет поможет разобраться, какие инструменты, каналы и технологии используют конкуренты, сформировать бенчмарки и определить цели.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Slider main container -->
+
+<section class="pricing">
+    <h1>Наши тарифы</h1>
+    <div class="toggle-buttons">
+        <button>Неделя</button>
+        <button class="active">Месяц</button>
+        <button>3 месяца</button>
+        <button>6 месяцев</button>
+        <button>Год</button>
+    </div>
+    <div class="discount-banner">До 31.12.2020 стоимость всех тарифов снижена на -25%</div>
+    <div class="pricing-table">
+        <div class="plan basic">
+            <h2>Basic</h2>
+            <p class="old-price">9900 р.</p>
+            <p class="price">9900 р.</p>
+            <ul>
+                <li>Данные доступны за 1 неделю ✔</li>
+                <li>Аналитика ✔</li>
+                <li class="ft">Площадок котегорий брендов продавцов товаров</li>
+                <li>Продажи ✔</li>
+                <li>Ассортимент ✖</li>
+                <li>Скидки ✖</li>
+                <li>Новинки ✖</li>
+                <li>Sold out ✖</li>
+                <li class="ft">Листинг ✖</li>
+                <li class="ft">Рейтинги отзывы ✖</li>
+            </ul>
+            <ul>
+                <li class="ft">Поиск ✖</li>
+                <li class="ft">Акции ✖</li>
+                <li class="ft">Баннеры ✖</li>
+            </ul>
+            <ul>
+                <li class="ft">Экспорт ✖</li>
+                <li class="ft">API ✖</li>
+                <li class="ft">Сравнение периодов ✖</li>
+            </ul>
+            <button class="buy-f">Начать прямо сейчас</button>
+        </div>
+        <div class="plan expert">
+            <h2>Expert</h2>
+            
+            <p class="old-price">12 900 р.</p>
+            <p class="price">12 900 р.</p>
+            <div class="blyat">
+            <ul>
+                <li>Данные доступны за 2 недели ✔</li>
+                <li>Аналитика ✔</li>
+                <li class="ft">Площадок котегорий брендов продавцов товаров</li>
+                <li>Продажи ✔</li>
+                <li>Ассортимент ✔</li>
+                <li>Скидки ✔</li>
+                <li>Новинки ✖</li>
+                <li>Sold out ✖</li>
+                <li class="ft">Листинг ✖</li>
+                <li class="ft">Рейтинги отзывы ✖</li>
+            </ul>
+            <ul>
+                <li class="ft">Поиск ✖</li>
+                <li class="ft">Акции ✖</li>
+                <li class="ft">Баннеры ✖</li>
+            </ul>
+            <ul>
+                <li class="ft">Экспорт ✖</li>
+                <li class="ft">API ✖</li>
+                <li class="ft">Сравнение периодов ✖</li>
+            </ul>
+            </div>
+            <button class="buy">Начать прямо сейчас</button>
+        </div>
+        <div class="plan enterprise">
+            <h2>Enterprise</h2>
+            
+            <p class="old-price">21 900 р.</p>
+            <p class="price">21 900 р.</p>
+            <ul>
+                <li>Данные за всю историю наблюдений ✔</li>
+                <li>Аналитика ✔</li>
+                <li class="ft">Площадок котегорий брендов продавцов товаров</li>
+                <li>Продажи ✔</li>
+                <li>Ассортимент ✔</li>
+                <li>Скидки ✔</li>
+                <li>Новинки ✔</li>
+                <li>Sold out ✔</li>
+                <li class="ft">Листинг ✔</li>
+                <li class="ft">Рейтинги отзывы ✔</li>
+            </ul>
+            <ul>
+                <li class="ft">Поиск ✖</li>
+                <li class="ft">Акции ✖</li>
+                <li class="ft">Баннеры ✖</li>
+            </ul>
+            <ul>
+                <li class="ft">Экспорт ✖</li>
+                <li class="ft">API ✖</li>
+                <li class="ft">Сравнение периодов ✖</li>
+            </ul>
+            <button class="buy disabled">Скоро будет доступен</button>
+        </div>
+    </div>
+</section>
+
+<section class="hell">
+    <div class="hell-all">
+        <div class="wh">
+            <div class="wh-t">
+                <h2>Почему с нами удобно?</h2>
+            </div> 
+            <div class="many">
+                <p>Смотрите отчеты на нашей платформе, экспортируйте в свою систему аналитики или получайте данные по API</p>
+                <p>Удобная оплата на сайте. Или счет для юр.лица или ИП. Закрывающие документы автоматически появляются в личном кабинете</p>
+                <p>Не нашли нужный вам отчет или маркетплейс? По запросу построим кастомный отчет в любом удобном вам виде</p>
+            </div>
+            <img src="image/f.png" class="wh-f" alt="half">
+        </div>
+    </div>
+</sectiom>
+
+<!-- Slider main container -->
+
+    <section class="quu">
+        <div class="q">
+        <h2 class="a-title">DKjfldkjlsdjkfljfdlsdfs</h2>
+        <div class="faq">
+            <div class="quathions">
+                <h3>fgdfgdfgdfgdfgd</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="#FFB325" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+
+            </div>
+            <div class="answer">
+                <p>
+                    hjghjghhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                </p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="quathions">
+                <h3>fgdfgdfgdfgdfgd</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="#FFB325" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+
+            </div>
+            <div class="answer">
+                <p>
+                    hjghjghhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                </p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="quathions">
+                <h3>fgdfgdfgdfgdfgd</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="#FFB325" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+
+            </div>
+            <div class="answer">
+                <p>
+                    hjghjghhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                </p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="quathions">
+                <h3>fgdfgdfgdfgdfgd</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="#FFB325" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+
+            </div>
+            <div class="answer">
+                <p>
+                    hjghjghhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                </p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="quathions">
+                <h3>fgdfgdfgdfgdfgd</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="#FFB325" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+
+            </div>
+            <div class="answer">
+                <p>
+                    hjghjghhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                </p>
+            </div>
+        </div>
+        <div class="tel"><img src="image/Frame 108.png" alt="half"></div>
+    </div>
+    </section>
+
+
+<!-- Slider main container -->
+
+<section class="some">
+        <div class="almost">
+            <div class="text-content">
+                <h2 class="better">Лучше один раз увидеть</h2>
+                <div class="little">
+                    <p>Дадим вам демо-доступ в личный кабинет.</p>
+                    <p>Посмотрите как все работает!</p>
+                </div>
+                <div class="help">
+                <button class="get">Получите демо-доступ</button>
+                </div>
+            </div>
+            <div class="image-new">
+                <img src="image/new.png" alt="half">
+            </div>
+        </div>
+</section>
+<!-- Slider main container -->
+
+<div class="email">
+    <div class="rectangle">
+        <div class="text">
+            <p>Хочешь получать советы по анализу конкурентов? Раз в месяц, без спама</p>
+        </div>
+        <div class="b-t">
+                <div class="group-em">
+                    <input type="email" placeholder="Введите ваш емэйл ..." class="email-input">
+                </div>
+            <div class="gr-b">
+                <p class="p-text">Подписаться</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slider main container -->
+
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+<footer>
+    <div class="footer-container">
+        <div class="contact">
+            <a><strong>&#9993; Свяжитесь с нами</strong></a>
+            <p>Если у вас остались вопросы или хотите обсудить сотрудничество, пишите:</p>
+            <p><a href="mailto:hello@wecheck.ru">hello@wecheck.ru</a></p>
+            <p><a href="https://wecheck.ru" target="_blank">wecheck.ru</a></p>
+        </div>
+        <div class="links">
+            <a href="#">Маркетплейсы</a>
+            <a href="#">Парсинг</a>
+            <a href="#">Конкуренты</a>
+            <a href="#">Главная</a>
+        </div>
+        <div class="social">
+            <p><strong>Следите за нами в соц сетях</strong></p>
+            <a href="#"><img src="image/e.png" alt="Telegram"></a>
+            <a href="#"><img src="image/p.png" alt="Facebook"></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2019-2020 We check. Все права защищены | <a href="#">Лицензионное соглашение</a> | <a href="#">Политика конфиденциальности</a></p>
+    </div>
+</footer>
+
+</html>
+

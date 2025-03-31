@@ -1,0 +1,861 @@
+body {
+    font-family: 'Gerbera', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #222;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    width: 50px;
+    height: 50px;
+    background: #EBB756;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #FFBD42;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: right;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #DEE2EC;
+    font-size: 18px;
+}
+
+.nav-link.active {
+    color: #FFBD42;
+}
+
+.order-report {
+    background: #222;
+    border: 1px solid #FFBD42;
+    color: #FFBD42;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.main-section {
+    text-align: center;
+    padding: 110px;
+}
+
+.main-heading {
+    font-size: 36px;
+    color: #EBB756;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.image-block {
+    width: 100%;
+    max-width: 881px;
+    height: 609.85px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+.info-panel {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    width: 300px;
+}
+
+.info-box {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.info-title {
+    font-size: 18px;
+    color: #FFB325;
+}
+
+.info-text {
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 260px;
+}
+
+.demo-button {
+    background: #7CF45A;
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+}
+
+.register-button {
+    background: #EBB756;
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+}
+
+
+.picture {
+    position: absolute;
+    width: 100%;  /* Растягиваем на всю ширину */
+    height: 494px;
+    left: 0;      /* Выравниваем по левому краю */
+    top: 603px;
+    z-index: -1;  /* Отправляем карту на задний план */
+}
+
+.picture img {
+    height: 100%;
+    width: 100%;
+}
+-------------------------------------2
+.second-s {
+    background: linear-gradient(to bottom, #EBB756, rgba(255, 30, 30, 0));
+    text-align: left;
+    padding: 50px;
+}
+
+.back2 {
+    background: linear-gradient(to bottom, #EBB756, rgba(255, 30, 30, 0));
+    text-align: left;
+    padding: 122px;
+}
+
+.sec-heading {
+    font-size: 36px;
+    color: #000000;
+    max-width: 631px;
+    padding-left: 122px;
+}
+
+.info-panel-s1 {
+    display: flex;
+    text-align: left;
+    gap: 20px;
+    width: 372px;
+}
+
+.info-panel-s2 {
+    display: flex;
+    text-align: left;
+    gap: 20px;
+    width: 372px;
+}
+
+.info-box-s {
+    padding: 15px;
+    padding-left: 122px;
+    border-radius: 10px;
+}
+
+.info-title-s1 {
+    font-size: 20px;
+    color: #000000;
+    width: 372px;
+}
+
+.info-text-s1 {
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 372px;
+}
+
+.info-title-s2 {
+    font-size: 20px;
+    color: #FFB325;
+    width: 372px;
+}
+
+.info-text-s2 {
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 372px;
+}
+
+.image-wrapper {
+    flex-shrink: 0;
+    width: 546px; /* Вы можете настроить ширину картинки, чтобы она не занимала всю доступную ширину */
+    z-index: -1;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Чтобы было пространство между текстом и картинкой */
+}
+
+-----------------------------3
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: linear-gradient(to right, #FFCF75, #FFB325);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #562d15;
+    text-align: center;
+    max-width: 400px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.card p {
+    font-size: 14px;
+    color: #000000;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.more-btn {
+    background: none;
+    border: none;
+    color: #000000;
+    padding: 0;
+    font-size: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container-3 {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; /* или нужная ширина */
+    margin: 0 auto; /* центрируем */
+    color: #000000;
+}
+
+.slider-title {
+    font-family: 'Gerbera', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.3px;
+    color: #333D37;
+    text-align: left; 
+    margin-bottom: 35px; 
+}
+-------------------45
+
+.pricing {
+    text-align: center;
+    padding: 12%;
+}
+
+.pricing h1 {
+    color: #33aa33;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 12%;
+}
+
+.toggle-buttons {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-right: 12%;
+}
+
+.toggle-buttons button {
+    padding: 10px 15px;
+    border: 1px solid #222;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.toggle-buttons .active {
+    background-color: #33aa33;
+    color: white;
+    border-color: #33aa33;
+}
+
+.discount-banner {
+    background-color: #ffffff;
+    width: 70%;
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    visibility: visible;
+    margin-left: 12%;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.plan {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.plan h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    visibility: visible;
+}
+
+.price {
+    font-size: 26px;
+    font-weight: bold;
+    color: #33aa33;
+    margin-bottom: 5px;
+    visibility: visible;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    margin-bottom: 15px;
+    visibility: visible;
+}
+
+.suk {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: block;
+    font-size: 14px;
+    visibility: visible;
+}
+
+li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    color: #333;
+    gap: 5px;
+    visibility: visible;
+}
+
+.ft {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    color: #b9b9b9;
+    gap: 5px;
+    visibility: visible;
+}
+
+.buy {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    border: 1px solid #d4a200;
+    visibility: visible;
+}
+
+.buy-f {
+    background-color: #ffffff;
+    color: #d4a200;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius:20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    border: 1px solid #d4a200;
+    visibility: visible;
+}
+
+.blyat {
+    gap: 2%;
+}
+
+.buy.disabled {
+    background-color: #ffffff;
+    cursor: not-allowed;
+    border: 1px solid #a5a5a5;
+    color: #a5a5a5;
+    visibility: visible;
+}
+
+.buy-f.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    border: 1px solid #999;
+    color: #666;
+    visibility: visible;
+}
+
+---------------------------a
+
+.WeCheck {
+    display: flex;
+}
+
+.whole {
+    background-color: #EEEEEE;
+    color: #000000;
+    gap: 130px;
+    display: flex;  /* Добавляем flex */
+    flex-direction: column;  /* Делаем столбец */
+    padding: 133px;
+}
+
+.black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black h1{
+    font-size: 40px;
+    margin: 2rem 0rem ;
+}
+
+.f-t {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+}
+
+.s-t {
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+}
+
+.bl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрирует по вертикали */
+    align-items: center; /* Центрирует по горизонтали */
+    text-align: center; /* Центрирует текст */
+    height: 100%; /* Нужно, если блок не растянут */
+}
+
+.bl h2 {
+    font-size: 16px;
+}
+
+.bl p {
+    font-size: 14px;
+    color: #6E6E6E;
+    max-width: 340px;
+}
+
+
+/* Нужно, если блок не растянут */
+
+.hell {
+    background-color: #202020;
+}
+
+.pr-f {
+    width: 100%;
+    height: 100%;
+}
+
+.pr-s {
+    padding: 122px;
+}
+
+
+.wh {
+    width: 100%;
+    height: 433px;
+    gap: 12%;
+}
+
+.wh-f {
+    background-image: url('image/f.png');
+    background-size: cover; /* Растягивает картинку, чтобы она покрыла весь контейнер */
+    background-position: center; /* Центрирует картинку */
+    background-repeat: no-repeat; /* Убирает повторение картинки */
+    width: 100%;
+    height: 400px; /* Высота контейнера */
+    z-index: 1; /* Фон будет ниже по слою */
+    position: relative; /* Чтобы дочерние элементы могли быть относительно него */
+}
+
+.wh-t {
+    position: absolute;
+    z-index: 2; /* Устанавливаем слой изображения поверх фона */
+    max-width: 100%; /* Если нужно, чтобы изображение не выходило за пределы контейнера */
+    padding-left: 12%;
+    padding-top: 2%;
+    color: #000;
+}
+
+.many {
+    position: absolute;
+    text-align: left;
+    z-index: 2; /* Устанавливаем слой изображения поверх фона */
+    display: flex;
+    margin: 150px 21%;
+    gap: 12%;
+    justify-content: center;
+    color: #000;
+}
+
+.many p {
+    width: 380px;
+    font-size: 20px;
+}
+
+/* Нужно, если блок не растянут */
+---------------------------a
+.quu {
+    min-height: 100vh;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.q {
+    padding: 122px;
+}
+
+.a-title {
+    font-size: 32px;
+    margin: 2rem 0rem ;
+    color: #7CF45A;
+}
+
+.faq {
+    max-width: 2300px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+
+.quathions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.quathions h3 {
+    font-size: 20px;
+}
+
+.answer p {
+    padding: 1rem;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s easy;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+}
+
+.faq.active svg {
+    transform: rotate(180deg);
+}
+
+.tel {
+    padding: 122px 15% 0px 15%;
+}
+
+.f-f {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.slide {
+    display: flex;
+    justify-content: center; /* Центрирует по горизонтали */
+    align-items: center; /* Центрирует по вертикали */
+    padding: 148px 20%;
+    width: 1242px;
+    height: 439px;
+}
+.slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+----------------f
+.some {
+    padding: 50px;
+    gap: 20px;
+    background-color: #EEEEEE;
+}
+
+.almost {
+    background-color: #EEEEEE;
+    padding: 172px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.better {
+    font-size: 40px;
+    margin: 2rem 0rem;
+    color: #000000;
+}
+
+.little p {
+    font-size: 32px;
+    margin: 1rem 0rem;
+    color: #000000;
+}
+
+.get {
+    background: #000000;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 285px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.image-new {
+    width: 444px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.image-new img {
+    width: 100%;
+    height: auto;
+}
+
+.help {
+    padding-top: 77px;
+}
+
+/* Ц------------------------------------------*/
+
+.email {
+    background-color: #EBB756;
+    padding: 30px 10%;
+    color: #000;
+}
+
+.rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text {
+    max-width: 483px;
+}
+
+.b-t {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+
+.gr-b {
+    background: #000000;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 182px;
+    font-size: 16px;
+    color: #EBB756;
+    display: flex; /* Добавляем display: flex */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+}
+
+.email-input {
+    background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем стандартные рамки */
+    border-bottom: 2px solid #000000; /* Черная полоска снизу */
+    color: #000000; /* Черный цвет текста */
+    font-size: 16px; /* Размер текста */
+    padding: 8px 0; /* Отступы сверху и снизу */
+    width: 335px; /* Чтобы инпут занимал всю доступную ширину */
+    outline: none; /* Убирает обводку при фокусе */
+}
+
+.email-input::placeholder {
+    color: #000000; /* Черный цвет текста плейсхолдера */
+    opacity: 1; /* Убирает прозрачность */
+    font-size: 15px;
+    font-weight: bold;
+}
+---------------------------------
+footer {
+    background-color: #333D37;
+    color: white;
+}
+
+.footer-container {
+    background-color: #333D37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4% 4%;
+    gap: 7%;
+}
+
+
+
+.contact p {
+    padding: 10px;
+    margin: 5px 0;
+    color: rgb(143, 143, 143);
+}
+
+.contact a {
+    margin: 5px 0;
+    color: white;
+}
+
+.links a {
+    margin: 5px 0;
+    color: white;
+}
+
+.social p {
+    margin: 5px 0;
+    color: white;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.social img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #74c0fc;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
